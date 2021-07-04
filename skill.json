@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:745838195453:function:ce1cf0c9-9e1f-4997-bbc8-dba7283abdb6:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:745838195453:function:ce1cf0c9-9e1f-4997-bbc8-dba7283abdb6:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:745838195453:function:ce1cf0c9-9e1f-4997-bbc8-dba7283abdb6:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:745838195453:function:ce1cf0c9-9e1f-4997-bbc8-dba7283abdb6:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-IN": {
+          "name": "Registration"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
